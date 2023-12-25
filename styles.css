@@ -28,7 +28,7 @@ nav a {
 }
 
 .hero {
-    background-image: url('https://drive.google.com/file/d/1oRyr1Jz_u7melh4vfw3ZjAB4llDKZdHp/view?usp=drivesdk'); /* Replace with your image URL */
+    background-image: url('images/BG1.jpg'); /* Replace with your image URL */
     background-size: cover;
     color: #fff;
     text-align: center;
