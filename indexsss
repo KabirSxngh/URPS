@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subject Syllabus</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="tabs">
+        <button class="tab-button" onclick="showTab('physics')">Physics</button>
+        <button class="tab-button" onclick="showTab('mathematics')">Mathematics</button>
+    </div>
+
+    <div id="physics" class="tab-content">
+        <div class="container">
+            <div class="unit">
+                <h2 onclick="toggleChapters('unit1-physics')">UNIT I: Electrostatics</h2>
+                <div class="chapters" id="unit1-physics">
+                    <div class="chapter"><input type="checkbox"> Coulomb's Law</div>
+                    <div class="chapter"><input type="checkbox"> Electric Field</div>
+                    <div class="chapter"><input type="checkbox"> Gauss' Theorem</div>
+                    <div class="chapter"><input type="checkbox"> Electric Potential</div>
+                    <div class="chapter"><input type="checkbox"> Capacitor</div>
+                </div>
+            </div>
+            <div class="unit">
+                <h2 onclick="toggleChapters('unit2-physics')">UNIT II: Current Electricity</h2>
+                <div class="chapters" id="unit2-physics">
+                    <div class="chapter"><input type="checkbox"> Electric Current, Resistance and E.M.F.</div>
+                    <div class="chapter"><input type="checkbox"> Electrical Measurements</div>
+                </div>
+            </div>
+            <div class="unit">
+                <h2 onclick="toggleChapters('unit3-physics')">UNIT III: Magnetic Effects of Current and Magnetism</h2>
+                <div class="chapters" id="unit3-physics">
+                    <div class="chapter"><input type="checkbox"> Magnetic Effects of Current</div>
+                    <div class="chapter"><input type="checkbox"> Force on a Charge</div>
+                    <div class="chapter"><input type="checkbox"> Force on a Current</div>
+                    <div class="chapter"><input type="checkbox"> Magnetic Dipole and Earth's Magnetism</div>
+                    <div class="chapter"><input type="checkbox"> Classification of Magnetic Materials</div>
+                </div>
+            </div>
+            <div class="unit">
+                <h2 onclick="toggleChapters('unit4-physics')">UNIT IV: Electromagnetic Induction and Alternating Currents</h2>
+                <div class="chapters" id="unit4-physics">
+                    <div class="chapter"><input type="checkbox"> Electromagnetic Induction</div>
+                    <div class="chapter"><input type="checkbox"> Alternating Currents</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mathematics" class="tab-content" style="display:none">
+        <div class="container">
+            <div class="unit">
+                <h2 onclick="toggleChapters('unit1-math')">UNIT I: Relations and Functions</h2>
+                <div class="chapters" id="unit1-math">
+                    <div class="chapter"><input type="checkbox"> Relations and Functions</div>
+                    <div class="chapter"><input type="checkbox"> Inverse Trigonometric Functions</div>
+                </div>
+            </div>
+            <div class="unit">
+                <h2 onclick="toggleChapters('unit2-math')">UNIT II: Algebra</h2>
+                <div class="chapters" id="unit2-math">
+                    <div class="chapter"><input type="checkbox"> Matrices</div>
+                    <div class="chapter"><input type="checkbox"> Determinants</div>
+                </div>
+            </div>
+            <div class="unit">
+                <h2 onclick="toggleChapters('unit3a-math')">UNIT III (A): Calculus</h2>
+                <div class="chapters" id="unit3a-math">
+                    <div class="chapter"><input type="checkbox"> Continuity and Differentiability</div>
+                    <div class="chapter"><input type="checkbox"> Applications of Derivatives</div>
+                </div>
+            </div>
+            <div class="unit">
+                <h2 onclick="toggleChapters('unit3b-math')">UNIT III (B): Calculus</h2>
+                <div class="chapters" id="unit3b-math">
+                    <div class="chapter"><input type="checkbox"> Integrals</div>
+                    <div class="chapter"><input type="checkbox"> Applications of the Integrals</div>
+                    <div class="chapter"><input type="checkbox"> Differential Equations</div>
+                </div>
+            </div>
+            <div class="unit">
+                <h2 onclick="toggleChapters('unit4-math')">UNIT IV: Vectors and Three-Dimensional Geometry</h2>
+                <div class="chapters" id="unit4-math">
+                    <div class="chapter"><input type="checkbox"> Vector Algebra</div>
+                    <div class="chapter"><input type="checkbox"> Three-Dimensional Geometry</div>
+                </div>
+            </div>
+            <div class="unit">
+                <h2 onclick="toggleChapters('unit5-math')">UNIT V: Linear Programming</h2>
+                <div class="chapters" id="unit5-math">
+                    <div class="chapter"><input type="checkbox"> Linear Programming</div>
+                </div>
+            </div>
+            <div class="unit">
+                <h2 onclick="toggleChapters('unit6-math')">UNIT VI: Probability</h2>
+                <div class="chapters" id="unit6-math">
+                    <div class="chapter"><input type="checkbox"> Probability</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
